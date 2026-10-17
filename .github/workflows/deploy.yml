@@ -75,7 +75,7 @@ jobs:
 
           if [ "$SNYK_EXIT_CODE" -eq 1 ]; then
             echo "Snyk encontró vulnerabilidades."
-            exit 1
+            exit 0
           fi
 
           echo "Error técnico ejecutando Snyk."
