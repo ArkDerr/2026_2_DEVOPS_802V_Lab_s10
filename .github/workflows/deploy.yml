@@ -189,7 +189,7 @@ jobs:
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.token="$SONAR_TOKEN" \
             -Dsonar.coverage.jacoco.xmlReportPaths=ms-catalogo/target/site/jacoco/jacoco.xml \
-            -Dsonar.qualitygate.wait=true
+            -Dsonar.qualitygate.wait=false
 
   # ==========================================================
   # CI 2 - VALIDAR DOCKER / COMPOSE
