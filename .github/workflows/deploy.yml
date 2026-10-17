@@ -125,7 +125,7 @@ jobs:
           path: ms-catalogo/target/site/jacoco/
           if-no-files-found: error
 
-
+ # ==========================================================
   # CI 2 - INSPECCIÓN ESTÁTICA / CALIDAD CON SONARQUBE CLOUD
   sonarcloud:
     name: Análisis estático SonarQube Cloud
